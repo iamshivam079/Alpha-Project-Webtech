@@ -1,0 +1,343 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    background-color: #f5f5f5;
+}
+/*HeaderSection CSS starts here*/
+#HeaderSection{
+    width: 100%;
+    color: white;
+    margin-top: 18px;
+}
+#LogoDiv{
+    display: inline;
+}
+#LogoDiv h1{
+    display: inline;
+    font-size: 17px;
+    margin-left: 18px;
+}
+#LogoDiv h1 span{
+    font-weight: 100;
+}
+#OptionDiv{
+    display: inline;
+}
+#OptionDiv ul{
+    display: inline;
+    position: absolute;
+    right: 0px;
+    top: 9px;
+}
+#OptionDiv ul li{
+        display: inline;
+        margin-right: 46px;
+}
+#SignUp{
+    border: 3px solid white;
+    padding: 5px 18px;
+    border-radius: 6px;
+}
+
+/* HeaderSection CSS ends here */
+/* BodySection css starts here */
+#BodySection{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+#BodySection h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+#BodySection{
+    font-size: 21px;
+}
+#BodySection p{
+    margin-top: -30px;
+}
+#BodySection ul{
+    margin-top: 55px;
+}
+
+#BodySection ul li{
+    display: inline;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 60px;
+}
+#signupli {
+    margin-right: 20px;
+    background-color: white;
+    color: gray;
+    font-weight: 9000;
+}
+
+/* BodySection css ends here */
+
+/* DiscripSection css ends here */
+
+#DescripSection{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 6px;
+    color: #747474;
+    text-align: center;
+}
+#DescripSection img{
+    width: 100%;
+    border-radius: 6px;
+}
+#DescripSection h1{
+    
+    padding-top: 66px;
+    font-size: 38px;
+    
+}
+#DescripSection p{
+    
+    border-top: solid 2px #747474;
+    display: inline-block;
+    padding-top: 45px;
+    font-size: 23px;
+    margin-bottom: 42px;
+    
+}
+
+/* DiscripSection css ends here */
+
+/* IconSection css ends here */
+
+#IconSection{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-top: 45px;
+}
+#IconSection div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 70px;
+    color: #747474;
+}
+#IconSection div h1{
+    font-size: 30px;
+}
+#IconSection div p{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 33px;
+}
+#IconSection div i{
+    font-size: 45px;
+    border-radius: 100%;
+    color: white;
+}
+#IconSection div:nth-child(1){
+    border-right: 1px solid #747474;
+}
+#IconSection div:nth-child(2){
+    border-bottom: 1px solid #747474;
+}
+#IconSection div:nth-child(3){
+    border-top: 1px solid #747474;
+    border-right: 1px solid #747474;
+}
+/* #IconSection div:nth-child(4){
+    border-right: 1px solid #747474;
+} */
+
+#IconDiv1 i{
+    background-color: #e89980;
+    padding: 32px 46px;
+}
+#IconDiv2 i{
+    background-color: #7fcdb8;
+    padding: 32px 30px;
+}
+#IconDiv3 i{
+    background-color: #90b0ba;
+    padding: 31px 37px;
+    margin-top: 8px;
+
+}
+#IconDiv4 i{
+    background-color: #e5cb95;
+    padding: 27px 41px;
+}
+
+
+/* #flash{
+    background: #e89980;
+    border-radius: 100%;
+    color: #ffffff;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+    font-size: 48px;
+}
+#area{
+    background: #e89980;
+    border-radius: 100%;
+    color: #ffffff;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+    font-size: 48px;
+}
+#cloud{
+    background: #e89980;
+    border-radius: 100%;
+    color: #ffffff;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+    font-size: 48px;
+}
+#lock{
+    background: #e89980;
+    border-radius: 100%;
+    color: #ffffff;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+    font-size: 48px;
+} */
+
+/* IconSection css ends here */
+
+/* NatureSection css ends here */
+
+#NatureSection{
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+    text-align: center;
+}
+
+#NatureSection div{
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 70px;
+    color: #747474;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 60px;
+}
+#NatureSection div p{
+    padding-bottom: 25px;
+}
+#NatureSection div img{
+    width: 100%;
+    margin-top: -70px;
+    border-radius: 6px;
+}
+#NatureDiv1{
+    background-color: white;
+}
+#NatureDiv2{
+    background-color: white;
+}
+
+#NatureSection div a{
+    border: 1px solid #747474;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 900;
+}
+/* NatureSection css ends here */
+
+/* FooterSection css ends here */
+
+#FooterDiv1{
+    background-color: #e89980;
+    width: 100%;
+    margin-top: 100px;
+    color: whitesmoke;
+    text-align: center;
+    height: 320px;
+}
+
+#FooterDiv1 h1{
+    font-size: 36px;
+    padding-top: 60px;
+}
+
+#FooterDiv1 p{
+    font-size: 20px;
+}
+
+#FooterDiv1 form{
+    margin-top: 40px;
+}
+
+#FooterDiv1 form input{
+    padding: 20px 75px;
+    border-radius: 5px;
+    border: black;
+    background-color: #e89980;
+    margin-right: 25px;
+}
+
+#FooterDiv1 form input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#FooterDiv1 form button{
+    background-color: white;
+    border: none;
+    padding: 20px 35px;
+    border-radius: 5px;
+    color: #e89980;
+    font-size: 15px;
+}
+
+#FooterDiv2{
+    text-align: center;
+    color: #c6c6c6;
+}
+
+#SocialMedia i{
+    font-size: 36px;
+    margin: 0px 10px;
+    margin-top: 60px;
+}
+
+#FooterDiv2 div ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 23px 0px 60px 0px;
+}
+
+#FooterDiv2 div ul li:nth-child(1){
+    border-right: 1px solid #c6c6c6;
+}
+
+#FooterDiv2 div ul li:nth-child(1){
+    border-right: 1px solid #c6c6c6;
+}
+/* FooterSection css ends here */
+
+
